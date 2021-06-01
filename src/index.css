@@ -1,0 +1,87 @@
+/* Navigation Styling */
+
+.app{
+align-items: center;
+shape-image-threshold: inherit;
+}
+
+.headerbar
+{
+background-color: rgb(149, 169, 207);
+padding-inline-start: 30px;
+padding-inline-end: 30px;
+padding-bottom: 20px;
+padding-top:20px;
+font-size: 16px;
+
+}
+.search-bar   
+{
+  width: 50px;
+  height:10px;
+  float: inline-start;
+}
+
+div.nav-btn
+{
+  float:right;
+  font-size: 16px;
+}
+
+
+.lis-of-all-article{
+align-content: center;
+}
+/*================  Picture Card Styling============== */
+
+
+.card-container{
+  display: inline-block;
+  width:20%;
+  background-color: rgb(236, 232, 226);
+  margin: 40px;
+  text-align: center;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius: 2px;
+box-shadow: 2px 2px 6px black;
+}
+
+.image-container img{
+  width:99%;
+  align-items: center;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius: 2px;
+}
+
+.card-title
+{
+  margin: bottom 0.5em;
+  float: left;
+  padding-left: 2px;
+}
+
+
+DropdownPage
+{
+float: inline-end;
+}
+
+.doted-button{
+  float:right;
+  list-style:none;
+  background-color:rgb(238, 213, 213);
+  height: 70%;
+  flex-direction: column;
+  padding-right:3px;
+
+}
+.doted-button li:hover{
+  background-color:rgb(235, 181, 181); 
+  cursor: pointer;
+}
+
+/* this the anchor tag within the ":" button inside the article */
